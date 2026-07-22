@@ -35,7 +35,7 @@ echo ""
 if [ -d "/google" ] || [ -n "$CLOUD_SHELL" ]; then
     log "Google Cloud Shell detected" "$GREEN"
     RAM_MIN="1G"
-    RAM_MAX="2G"
+    RAM_MAX="8G"
 fi
 
 # Install Java
